@@ -88,14 +88,14 @@ at the starting of a useState Initialization.
 ### Solution for this Problems:
 
 
-> **Solution 1:**
+**Solution 1:**
 Set the state value as Empty Array.
 
 ```javascript
 const [users, setUsers] = useState([]);
 ``` 
 
-> **Solution 2:**
+**Solution 2:**
 
 Check the *users* array is empty or not.
 ```javascript
@@ -115,7 +115,7 @@ Check the *users* array is empty or not.
 	);
 ``` 
 
-> **Solution 3:**
+**Solution 3:**
 
 Checking the *users* array is empty or not using ** [Optional Chaining Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator#relationship_with_the_optional_chaining_operator_) **
 ```javascript
@@ -137,13 +137,13 @@ Checking the *users* array is empty or not using ** [Optional Chaining Operator]
 
 ## 2. ReferenceError: localStorage is not defined in React
 
-> **Reason:**
+**Reason:**
 
 The *localStorage* is a window object in a browser. when you regenerate a page in 
 React JS *localStorage* is not defined.because it's a browser-only feature.
 
 
-> **Solution:**
+**Solution:**
 
 This one line will help you solve this error.
 
@@ -174,11 +174,11 @@ Keys Only differentiate the array data.
 	);
 ``` 
 
-> **Solution 1:**
+**Solution 1:**
 
 Returning Multiple Elements in a component, we need to add ** [Fragment](https://reactjs.org/docs/fragments.html) ** in our empty parent tag.
 
-> **Note:**
+**Note:**
 Fragments let you group a list of children 
 without adding extra nodes to the DOM.
 
@@ -204,7 +204,7 @@ import {Fragment } from "react";
 	);
 ``` 
 
-> **Solution 2:**
+**Solution 2:**
 
 If it is a Single return element add the unique value as key or index.
 
@@ -223,12 +223,12 @@ If it is a Single return element add the unique value as key or index.
 	);
 ``` 
 ## 4. Error: Port 3000 is already in use in React
-> **Reason:**
+**Reason:**
 
 This error only Happens Once you forgot to stop the server or 
 the port runs a different application.
 
-> **Solution:**
+**Solution:**
 
 
 ```bash
@@ -254,11 +254,11 @@ E.X : npx next -p 1998
 This warning error occurs in the console. while load a recharts graph this error happened.
 
 **[console warning]**
-> **Reason:**
+**Reason:**
 
 The recharts graph data while running the page server-side rendering is failed. that's why it's happened.
 
-> **Solution:**
+**Solution:**
 
  Set a state for the graph once the document is ready the graph data will be shown.
 
@@ -288,10 +288,10 @@ This is how I load the props data in graph
 ## 6 . Module not found: Can't resolve 'module name' in React
 ### This Error Happens 2 Ways:
 
-> 1.The Particular module is missing in the **node_modules folder**
+ 1.The Particular module is missing in the **node_modules folder**
 
 
->  **Solution:**
+ **Solution:**
  Remove package-lock.json and run the commands
 ```bash
 npm install
@@ -302,9 +302,8 @@ This will solve this issue.
 
 
 
-> 
 2. The Particular Component Module Missing in the particular Location:
->  
+  
 **Solution:**
  Set a Correct Path for the component module.
 
