@@ -1,4 +1,4 @@
-# [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%238D19FF&multiline=true&lines=Welcome+All+React+JS++developers!!!)](https://git.io/typing-svg)
+# [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%238D19FF&multiline=true&lines=Welcome+All+React+JS++developers!!!)](https://github.com/dhanar98/common-reactjs-errors-and-solutions)
 
 ## I would like to all the developers who are facing issues in your react js project if you have the solution to any issue kindly mention the issue and solution. contribute everyone to help our developer problems
 
