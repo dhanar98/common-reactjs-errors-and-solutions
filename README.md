@@ -2,22 +2,23 @@
 
 ## I would like to all the developers who are facing issues in your react js project if you have the solution to any issue kindly mention the issue and solution. contribute everyone to help our developer problems
 
-### **Instructions:**
+## **Instructions:**
 
-> 1. fork this repository
+**1. fork this repository**
 
-> 2. create a branch name with your username and number of errors and solutions
-   Example : dhanar98_1error_2solutions.
+**2. create a branch name with your username and number of errors and solutions**
+   **Example : dhanar98_1error_2solutions.**
 
-> 3. update the error title in the Errors list Table
+**3. update the error title in the Errors list Table**
 
-> 4. add the error title, reason and solutions with proper code or image (gif, png, jpg).
+**4. add the error title, reason and solutions with proper code or image (gif, png, jpg).**
 
-> 5. create a pull request without merge conflict
+**5. create a pull request without merge conflict**
 
-> 6. once 1-50 errors list is completed create another markdown file for another 50 errors(create a table with anchor links).
+**6. once 1-50 errors list is completed create another markdown file for another 50 errors(create a table with anchor links).**
 
-> 7. contribute everyone to make this repo bigger community.
+**7. contribute everyone to make this repo bigger community.**
+
 
 #### Error List Table
 
